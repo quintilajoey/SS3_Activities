@@ -3,6 +3,22 @@
     <title></title>
 </head>
 <body>
+<?php
+// DATA
+$items = [
+    ["Lumber", 190000],
+    ["Concrete", 78000],
+    ["Drywall", 56000],
+    ["Paint", 25000],
+    ["Miscellaneous", 20000]
+];
+
+// TOTALS
+$total_estimated = 0;
+$total_10 = 0;
+$total_15 = 0;
+$total_20 = 0;
+?>
 
 <h1>Public Library Expansion Project</h1>
 <h3>Cost Estimates</h3>
