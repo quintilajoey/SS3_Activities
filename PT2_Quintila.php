@@ -5,6 +5,7 @@
 <body>
 
 <h1>Public Library Expansion Project</h1>
+<h3>Cost Estimates</h3>
 
 <table>
     <tr>
