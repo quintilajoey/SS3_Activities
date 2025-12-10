@@ -46,19 +46,17 @@ $tot_est = $tot10 = $tot15 = $tot20 = 0;
 
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td><?= money($est) ?></td>
+        <td><?= money($inc10) ?></td>
+        <td><?= money($inc15) ?></td>
+        <td><?= money($inc20) ?></td>
     </tr>
 
     <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <th><?= money($tot_est) ?></th>
+        <th><?= money($tot10) ?></th>
+        <th><?= money($tot15) ?></th>
+        <th><?= money($tot20) ?></th>
     </tr>
 
 </table>
