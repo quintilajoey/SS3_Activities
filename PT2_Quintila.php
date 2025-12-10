@@ -3,8 +3,8 @@
     <title></title>
 </head>
 <body>
+
 <?php
-// DATA
 $items = [
     ["Lumber", 190000],
     ["Concrete", 78000],
@@ -13,11 +13,11 @@ $items = [
     ["Miscellaneous", 20000]
 ];
 
-// TOTALS
-$total_estimated = 0;
-$total_10 = 0;
-$total_15 = 0;
-$total_20 = 0;
+function money($v){
+    return "$" . number_format($v, 2);
+}
+
+$tot_est = $tot10 = $tot15 = $tot20 = 0;
 ?>
 
 <h1>Public Library Expansion Project</h1>
@@ -30,6 +30,27 @@ $total_20 = 0;
         <th>10% Increase</th>
         <th>15% Increase</th>
         <th>20% Increase</th>
+    </tr>
+
+    <?php foreach($items as $row): 
+        $est = $row[1];
+        $inc10 = $est * 1.10;
+        $inc15 = $est * 1.15;
+        $inc20 = $est * 1.20;
+
+        $tot_est += $est;
+        $tot10 += $inc10;
+        $tot15 += $inc15;
+        $tot20 += $inc20;
+    ?>
+
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 
     <tr>
