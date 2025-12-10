@@ -31,6 +31,15 @@ $total_20 = 0;
         <th>15% Increase</th>
         <th>20% Increase</th>
     </tr>
+
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
 </table>
 </body>
 </html>
