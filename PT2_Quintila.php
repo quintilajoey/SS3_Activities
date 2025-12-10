@@ -3,6 +3,9 @@
     <title></title>
 </head>
 <body>
+
+<h1>Public Library Expansion Project</h1>
+
 <table>
     <tr>
         <th>Expenditures</th>
