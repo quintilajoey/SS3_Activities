@@ -25,4 +25,33 @@
     echo "Tax: $" . $tax . "<br>";
     echo "Income After Tax: $" . $incomeAfterTax;
 
+    echo "
+    <body>
+        <table>
+            <tr>
+                <th></th>
+            </tr>
+            
+            <tr>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <td></td>
+            </tr>
+            
+            <tr>
+                <th></th>
+            </tr>            
+        </table>
+    </body>
+
+    ";
+
+
+
 ?>
