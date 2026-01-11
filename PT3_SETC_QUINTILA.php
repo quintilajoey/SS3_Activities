@@ -20,9 +20,9 @@
 
     $incomeAfterTax = $netIncome - $tax;
 
-    echo "Hourly Raye: $hourlyRate<br>";
-    echo "Monthly Income: $netIncome<br>";
-    echo "Tax: $tax<br>";
-    echo "After Tax: $incomeAfterTax<br>";
+    echo "Hourly Rate: $" . $hourlyRate . "<br>";
+    echo "Monthly Net Income: $" . $netIncome . "<br>";
+    echo "Tax: $" . $tax . "<br>";
+    echo "Income After Tax: $" . $incomeAfterTax;
 
 ?>
