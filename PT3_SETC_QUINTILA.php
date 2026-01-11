@@ -17,16 +17,10 @@
         $tax = (15000 * 0.05) + (($netIncome - 30000) * 0.10);
     }
 
-
     $incomeAfterTax = $netIncome - $tax;
 
-    echo "Hourly Rate: $" . $hourlyRate . "<br>";
-    echo "Monthly Net Income: $" . $netIncome . "<br>";
-    echo "Tax: $" . $tax . "<br>";
-    echo "Income After Tax: $" . $incomeAfterTax;
-
     echo "
-    <body>
+    <body style='background-color: #e0e0e0; font-family: Arial;'>
         <table border='1' cellpadding='10' cellspacing='0' style='margin:auto; background-color:white;'>
             <tr bgcolor='38b6c7'; style='color:white;'>
                 <th colspan=2;>Employee Salary Report</th>
