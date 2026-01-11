@@ -28,28 +28,28 @@
     echo "
     <body>
         <table border='1' cellpadding='10' cellspacing='0' style='margin:auto; background-color:white;'>
-            <tr>
-                <th>Employee Salary Report</th>
+            <tr bgcolor='38b6c7'; style='color:white;'>
+                <th><b>Employee Salary Report</b></th>
             </tr>
             
-            <tr>
+            <tr bgcolor='cbeef2'; style='color:black;'>
                 <td>Hourly Rate</td>
-                <td>$hourlyRate</td>
+                <td><b>$$hourlyRate</b></td>
             </tr>
             
-            <tr>
+            <tr bgcolor='f2f9fa'; style='color:black;'>
                 <td>Monthly Net Income</td>
-                <td>$$netIncome</td>
+                <td><b>$$netIncome</b></td>
             </tr>
             
-            <tr>
+            <tr bgcolor='cbeef2'; style='color:black;'>
                 <td>Tax</td>
-                <td>$$tax</td>
+                <td><b>$$tax</b></td>
             </tr>
             
-            <tr>
+            <tr bgcolor='f2f9fa'; style='color:black;'>
                 <th>Income After Tax</th>
-                <td>incomeAfterTax</td>
+                <td><b>$$incomeAfterTax</b></td>
             </tr>            
         </table>
     </body>
