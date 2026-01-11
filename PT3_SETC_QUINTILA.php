@@ -7,6 +7,10 @@
 
     $netIncome = $hourlyRate * $hoursPerDay * $daysPerMonth;
 
+    if ($netIncome <= 15000) {
+        $tax = 0;
+    }
+
     echo $netIncome;
 
 ?>
