@@ -18,6 +18,11 @@
     }
 
 
-    echo $netIncome;
+    $incomeAfterTax = $netIncome - $tax;
+
+    echo "Net Income: $netIncome";
+    echo "Tax: $tax<br>";
+    echo "After Tax: $incomeAfterTax";
+
 
 ?>
