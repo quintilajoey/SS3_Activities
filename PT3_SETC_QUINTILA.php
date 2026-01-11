@@ -27,25 +27,29 @@
 
     echo "
     <body>
-        <table>
+        <table border='1' cellpadding='10' cellspacing='0' style='margin:auto; background-color:white;'>
             <tr>
-                <th></th>
+                <th>Employee Salary Report</th>
             </tr>
             
             <tr>
-                <td></td>
+                <td>Hourly Rate</td>
+                <td>$hourlyRate</td>
             </tr>
             
             <tr>
-                <td></td>
+                <td>Monthly Net Income</td>
+                <td>$$netIncome</td>
             </tr>
             
             <tr>
-                <td></td>
+                <td>Tax</td>
+                <td>$$tax</td>
             </tr>
             
             <tr>
-                <th></th>
+                <th>Income After Tax</th>
+                <td>incomeAfterTax</td>
             </tr>            
         </table>
     </body>
