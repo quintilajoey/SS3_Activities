@@ -29,27 +29,27 @@
     <body>
         <table border='1' cellpadding='10' cellspacing='0' style='margin:auto; background-color:white;'>
             <tr bgcolor='38b6c7'; style='color:white;'>
-                <th><b>Employee Salary Report</b></th>
+                <th colspan=2;>Employee Salary Report</th>
             </tr>
             
             <tr bgcolor='cbeef2'; style='color:black;'>
                 <td>Hourly Rate</td>
-                <td><b>$$hourlyRate</b></td>
+                <td style='color:green;'><b>$$hourlyRate</b></td>
             </tr>
             
             <tr bgcolor='f2f9fa'; style='color:black;'>
                 <td>Monthly Net Income</td>
-                <td><b>$$netIncome</b></td>
+                <td style='color:green;'><b>$$netIncome</b></td>
             </tr>
             
             <tr bgcolor='cbeef2'; style='color:black;'>
                 <td>Tax</td>
-                <td><b>$$tax</b></td>
+                <td style='color:green;'><b>$$tax</b></td>
             </tr>
             
             <tr bgcolor='f2f9fa'; style='color:black;'>
-                <th>Income After Tax</th>
-                <td><b>$$incomeAfterTax</b></td>
+                <td>Income After Tax</td>
+                <td style='color:green;'><b>$$incomeAfterTax</b></td>
             </tr>            
         </table>
     </body>
