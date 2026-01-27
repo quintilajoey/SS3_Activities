@@ -1,6 +1,12 @@
 <?php
 
 echo "Prime Classification with Factor Counting";
+echo "<table>";
+echo "<tr>
+        <th>Number</th>
+        <th>Result</th>
+      </tr>";
+
 $prime = 0;
 $notPrime = 0;
 
@@ -15,16 +21,20 @@ for ($num = 1; $num <= 20; $num++) {
     }
 
     if ($factors == 2) {
-        echo $num . " - Prime<br>";
+        echo "<tr><td>$num</td><td>Prime</td></tr>";
         $prime++;
     } else {
-        echo $num . " - Not Prime (" . $factors . " factors)<br>";
+        echo "<tr><td>$num</td><td>Not Prime ($factors factors)</td></tr>";
         $notPrime++;
     }
 }
 
+echo "</table>";
+
+echo "<table>";
 echo "<br>Summary<br>";
 echo "Total Prime Numbers: " . $prime . "<br>";
 echo "Total Non-Prime Numbers: " . $notPrime . "<br>";
-
+echo "</table>";
 ?>
+
