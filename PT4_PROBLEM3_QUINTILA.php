@@ -13,7 +13,7 @@ for ($num = 1; $num <= 20; $num++) {
     if ($factors == 2) {
         echo $num . " - Prime<br>";
     } else {
-        echo $num . " - Not Prime<br>";
+        echo $num . " - Not Prime (" . $factors . " factors)<br>";
     }
 }
 
