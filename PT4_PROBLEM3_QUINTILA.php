@@ -10,7 +10,11 @@ for ($num = 1; $num <= 20; $num++) {
         }
     }
 
-    echo $num . " has " . $factors . " factors<br>";
+    if ($factors == 2) {
+        echo $num . " - Prime<br>";
+    } else {
+        echo $num . " - Not Prime<br>";
+    }
 }
 
 ?>
