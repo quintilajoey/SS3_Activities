@@ -1,11 +1,19 @@
 <?php
+echo "
+<style>
+    th, td {
+    border: 1px solid black;
+    padding: 6px 12px;
+    text-align: center;
+}
+</style>";
 
 echo "Prime Classification with Factor Counting";
 echo "<table>";
 echo "<tr>
         <th>Number</th>
         <th>Result</th>
-      </tr>";
+      </tr>"
 
 $prime = 0;
 $notPrime = 0;
