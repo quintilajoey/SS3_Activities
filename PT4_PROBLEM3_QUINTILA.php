@@ -52,6 +52,6 @@ echo "Total Prime Numbers: " . $prime . "<br>";
 echo "Total Non-Prime Numbers: " . $notPrime . "<br>";
 echo "</table>";
 
-echo "<center>";
+echo "</center>";
 ?>
 
