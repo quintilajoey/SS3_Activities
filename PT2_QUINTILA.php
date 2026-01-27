@@ -1,6 +1,19 @@
 <?php
 echo "<body>";
 echo "<center>";
+echo "
+<style>
+    table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
+    th, td {
+    border: 1px solid black;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+</style>";
 
 echo "<body>";
 
