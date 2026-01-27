@@ -1,5 +1,6 @@
 <?php
 
+echo "Prime Classification with Factor Counting";
 $prime = 0;
 $notPrime = 0;
 
