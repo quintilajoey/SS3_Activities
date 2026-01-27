@@ -1,6 +1,13 @@
 <?php
 echo "
 <style>
+    body {
+    font-family: Arial;
+}
+    table {
+    border-collapse: collapse;
+    margin: 20px auto;
+}
     th, td {
     border: 1px solid black;
     padding: 6px 12px;
@@ -45,6 +52,6 @@ echo "Total Prime Numbers: " . $prime . "<br>";
 echo "Total Non-Prime Numbers: " . $notPrime . "<br>";
 echo "</table>";
 
-echo "</center>";
+echo "<center>";
 ?>
 
