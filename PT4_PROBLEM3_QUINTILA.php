@@ -7,13 +7,13 @@ echo "
     text-align: center;
 }
 </style>";
-
+echo "<center>";
 echo "Prime Classification with Factor Counting";
 echo "<table>";
 echo "<tr>
         <th>Number</th>
         <th>Result</th>
-      </tr>"
+      </tr>";
 
 $prime = 0;
 $notPrime = 0;
@@ -44,5 +44,7 @@ echo "<br>Summary<br>";
 echo "Total Prime Numbers: " . $prime . "<br>";
 echo "Total Non-Prime Numbers: " . $notPrime . "<br>";
 echo "</table>";
+
+echo "</center>";
 ?>
 
