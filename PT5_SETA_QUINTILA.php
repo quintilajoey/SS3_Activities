@@ -1,6 +1,5 @@
 
 <!DOCTYPE html>
-
 <html>
 <head>
   <title>Grade Calculator</title>
@@ -10,6 +9,35 @@
             background-color: #025973;
             color:black;
         }
+        .container{
+            width:420px;
+            margin:40px auto;
+            background:white;
+            padding:25px;
+            border-radius:10px;
+        }
+        label{
+            display:inline-block;
+            width:160px;
+            margin-bottom:10px;
+        }
+        input[type="number"]{
+            width:180px;
+            padding:5px;
+       }
+        button{
+            margin-top:15px;
+            padding:8px 16px;
+            background:blue;
+            color:white;
+            border-radius:5px;
+            border:none;
+        }
+        button:hover{
+            background:blue;
+            box-shadow: black 2px 2px 3px;
+            
+       }
     </style>
 </head>
 <body>
