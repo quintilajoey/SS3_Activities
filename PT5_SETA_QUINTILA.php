@@ -4,6 +4,13 @@
 <html>
 <head>
   <title>Grade Calculator</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #025973;
+            color:black;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
