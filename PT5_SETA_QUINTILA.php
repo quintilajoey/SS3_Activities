@@ -68,6 +68,31 @@ if(isset($_POST['calculate'])){
     $q3 = $_POST['q3'];
     $q4 = $_POST['q4'];
 
+    $average = ($q1 + $q2 + $q3 + $q4) / 4;
+    $averageFormatted = number_format($average, 2);
+
+    if($average >= 90){
+        $descriptor = "Outstanding";
+        $remarks = "Passed";
+        $class = "passed";
+    } elseif($average >= 85){
+        $descriptor = "Very Satisfactory";
+        $remarks = "Passed";
+        $class = "passed";
+    } elseif($average >= 80){
+        $descriptor = "Satisfactory";
+        $remarks = "Passed";
+        $class = "passed";
+    } elseif($average >= 75){
+        $descriptor = "Fairly Satisfactory";
+        $remarks = "Passed";
+        $class = "passed";
+    } else {
+        $descriptor = "Did Not Meet Expectations";
+        $remarks = "Failed";
+        $class = "failed";
+    }
+
 ?>
 
 </body>
