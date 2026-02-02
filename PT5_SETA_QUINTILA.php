@@ -38,6 +38,16 @@
             box-shadow: black 2px 2px 3px;
             
        }
+        .result{
+            margin-top:25px;
+            padding-top:15px;
+            border-top:1px solid #ccc;
+        }
+        .result p{
+            font-size:16px;
+        }
+        .passed{ color:green; font-weight:bold; }
+        .failed{ color:red; font-weight:bold; }
     </style>
 </head>
 <body>
@@ -93,7 +103,13 @@ if(isset($_POST['calculate'])){
         $class = "failed";
     }
 
-?>
-
+    echo "<div class='result'>";
+    echo "<p><strong>Average Grade:</strong> $averageFormatted</p>";
+    echo "<p><strong>Description:</strong> $descriptor</p>";
+    echo "<p><strong>Remarks:</strong> <span class='$class'>$remarks</span></p>";
+    echo "</div>";
+}
+   ?>
+</div>
 </body>
 </html>
