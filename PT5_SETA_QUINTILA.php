@@ -22,7 +22,10 @@
             margin-bottom:10px;
         }
         input {
-            width: 120px;
+            width:140px;
+            padding:5px;
+            border-radius:2px;
+            border: 1px solid blue;
         }
         button{
             margin-top:15px;
