@@ -72,34 +72,36 @@
 </form>
 
 <?php
-if(isset($_POST['calculate'])){
+if(isset($_POST['calc'])){
     $q1 = $_POST['q1'];
     $q2 = $_POST['q2'];
     $q3 = $_POST['q3'];
     $q4 = $_POST['q4'];
 
-    $average = ($q1 + $q2 + $q3 + $q4) / 4;
-    $averageFormatted = number_format($average, 2);
+    $avg = ($q1 + $q2 + $q3 + $q4) / 4;
 
-    if($average >= 90){
-        $descriptor = "Outstanding";
-        $remarks = "Passed";
+    if($avg >= 90){
+        $desc = "Outstanding";
+        $rem = "Passed";
         $class = "passed";
-    } elseif($average >= 85){
-        $descriptor = "Very Satisfactory";
-        $remarks = "Passed";
+    }
+    elseif($avg >= 85){
+        $desc = "Very Satisfactory";
+        $rem = "Passed";
+    }
+    elseif($avg >= 80){
+        $desc = "Satisfactory";
+        $rem = "Passed";
         $class = "passed";
-    } elseif($average >= 80){
-        $descriptor = "Satisfactory";
-        $remarks = "Passed";
+    }
+    elseif($avg >= 75){
+        $desc = "Fairly Satisfactory";
+        $rem = "Passed";
         $class = "passed";
-    } elseif($average >= 75){
-        $descriptor = "Fairly Satisfactory";
-        $remarks = "Passed";
-        $class = "passed";
-    } else {
-        $descriptor = "Did Not Meet Expectations";
-        $remarks = "Failed";
+    }
+    else{
+        $desc = "Did Not Meet Expectations";
+        $rem = "Failed";
         $class = "failed";
     }
 
