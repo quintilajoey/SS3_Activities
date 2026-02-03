@@ -106,12 +106,10 @@ if(isset($_POST['calc'])){
     }
 
     echo "<div class='result'>";
-    echo "<p><strong>Average Grade:</strong> $averageFormatted</p>";
-    echo "<p><strong>Description:</strong> $descriptor</p>";
-    echo "<p><strong>Remarks:</strong> <span class='$class'>$remarks</span></p>";
+    echo "Average Grade: " . number_format($avg,2) . "<br>";
+    echo "Description: $desc<br>";
+    echo "Remarks: $rem";
     echo "</div>";
 }
-   ?>
-</div>
-</body>
+?></div></body>
 </html>
