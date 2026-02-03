@@ -21,10 +21,9 @@
             width:160px;
             margin-bottom:10px;
         }
-        input[type="number"]{
-            width:180px;
-            padding:5px;
-       }
+        input {
+            width: 120px;
+        }
         button{
             margin-top:15px;
             padding:8px 16px;
@@ -67,7 +66,7 @@
         <label>4th Quarter Grade:</label>
         <input type="number" name="q4" placeholder="Enter your Grade" min="70" max="99" step="0.01" required><br>
 
-       <button type="submit" name="calculate">Calculate</button>
+       <button type="submit" name="calc">Calculate</button>
     </fieldset>
 </form>
 
