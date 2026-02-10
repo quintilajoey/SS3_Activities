@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -22,8 +21,6 @@
             border-collapse: collapse;
             text-align: center;
             margin: 20px auto;
-            
-
         }
         th{
             border: 1px solid black;
