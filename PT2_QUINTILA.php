@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>PT1</title>        
+        <title>Library Cost Table</title>        
       <style>
         body{
             background-color: white;
